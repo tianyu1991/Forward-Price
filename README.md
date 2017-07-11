@@ -1,5 +1,5 @@
 # Forward-Price
-##Forward Price
+## Forward Price
 
 FP <- function(PY,i,time=1,C1=0,C1_time=0,C2=0,C2_time=0,c=0,y=0){
 
@@ -32,7 +32,9 @@ FP <- function(PY,i,time=1,C1=0,C1_time=0,C2=0,C2_time=0,c=0,y=0){
 
 
 library(SciViews)
+
 ConY<-function(i,count=12,convert=0){
+
 	x<-1+i/count
 	x<-x^count
 	if(convert==0){
@@ -40,6 +42,7 @@ ConY<-function(i,count=12,convert=0){
 	else{
 		x<-x^(1/convert)-1
 		return(c*x)}
+		
 }
 
 ##Cony(i,count=12,convert=0)
