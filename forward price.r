@@ -15,12 +15,12 @@ FP <- function(PY,i,time=1,C1=0,C1_time=0,C2=0,C2_time=0,c=0,y=0){
 }
 ##FP(PY,i,time=1,C1=0,C1_time=0,C2=0,C2_time=0,c=0,y=0)
 ##  Input variable:
-##  PY:Present value (require)
-##  i: Continually compounded nterest rate (require)
-##  time:Forward contract time period (year), default:1
+##  PY: Present value (require)
+##  i: Continually compounded interest rate (require)
+##  time: Forward contract time period (year), default:1
 ##  C1: Amount of first coupon, default: 0
 ##  C1_time: Time of first coupon (year), default: 0
-##  C1: Amount of first coupon, deafult: 0
+##  C1: Amount of first coupon, default: 0
 ##  C1_time: Time of first coupon (year), default: 0
-##  c:Continually compounded cost yield
-##  y:Continually compounded convient yield
+##  c: Continually compounded cost yield, default: 0
+##  y: Continually compounded convenient yield, default: 0
