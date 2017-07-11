@@ -62,3 +62,6 @@ Cony(i,count=12,convert=0)
      0 if need a continually compounded yield
    
      default: 0
+
+
+#### Tianyu Liu 7/11/2017
