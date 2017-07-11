@@ -14,6 +14,7 @@ FP <- function(PY,i,time=1,C1=0,C1_time=0,C2=0,C2_time=0,c=0,y=0){
 	ForwardPrice<-(PY-C1_pv-C2_pv)*exp(rate*time)
 	return(ForwardPrice)
 }
+
 ##FP(PY,i,time=1,C1=0,C1_time=0,C2=0,C2_time=0,c=0,y=0)
 ##  Input variables:
 ##  PY: Present value (require)
@@ -28,6 +29,8 @@ FP <- function(PY,i,time=1,C1=0,C1_time=0,C2=0,C2_time=0,c=0,y=0){
 
 
 ##Convert interest rate based on different compounding frequencies
+
+
 library(SciViews)
 ConY<-function(i,count=12,convert=0){
 	x<-1+i/count
