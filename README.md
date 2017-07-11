@@ -58,7 +58,7 @@ Cony(i,count=12,convert=0)
 * i: Interest rate need to be converted
 * count: Compounding frequencies on a year
 * convert: Compounding frequencies on a year
- 
- 0 if need a continually compounded yield	 
- 
- default: 0
+
+    0 if need a continually compounded yield
+   
+    default: 0
