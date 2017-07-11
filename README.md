@@ -1,10 +1,11 @@
 # Forward-Price
 
-##Forward Price
-'''
+A useful function to calculate forward price in R.
+
+## Forward Price
+
 
 FP <- function(PY,i,time=1,C1=0,C1_time=0,C2=0,C2_time=0,c=0,y=0){
-
 	if(C1_time<time){
 		C1_pv<-C1*exp(-i*C1_time)} 
 	else{C1_pv<-0}
@@ -16,7 +17,7 @@ FP <- function(PY,i,time=1,C1=0,C1_time=0,C2=0,C2_time=0,c=0,y=0){
 	ForwardPrice<-(PY-C1_pv-C2_pv)*exp(rate*time)
 	return(ForwardPrice)
 }
-'''
+
 
 FP(PY,i,time=1,C1=0,C1_time=0,C2=0,C2_time=0,c=0,y=0)
 
@@ -41,14 +42,12 @@ FP(PY,i,time=1,C1=0,C1_time=0,C2=0,C2_time=0,c=0,y=0)
   y: Continually compounded convenient yield, default: 0
 
 
-##Convert interest rate based on different compounding frequencies
+## Convert interest rate based on different compounding frequencies
 
-'''
+
 
 library(SciViews)
-
 ConY<-function(i,count=12,convert=0){
-
 	x<-1+i/count
 	x<-x^count
 	if(convert==0){
@@ -58,7 +57,7 @@ ConY<-function(i,count=12,convert=0){
 		return(c*x)}
 		
 }
-'''
+
 
 Cony(i,count=12,convert=0)
 
