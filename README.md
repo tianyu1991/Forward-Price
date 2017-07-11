@@ -51,7 +51,7 @@ FP(PY,i,time=1,C1=0,C1_time=0,C2=0,C2_time=0,c=0,y=0)
 	}
 
 
-Cony(i,count=12,convert=0)
+ConY(i,count=12,convert=0)
 
 ### Input Varibales:
 
