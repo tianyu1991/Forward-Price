@@ -59,6 +59,6 @@ Cony(i,count=12,convert=0)
 * count: Compounding frequencies on a year
 * convert: Compounding frequencies on a year
 
-    0 if need a continually compounded yield
+     0 if need a continually compounded yield
    
-    default: 0
+     default: 0
