@@ -1,5 +1,5 @@
 # Forward-Price
-## Forward Price
+Forward Price
 
 FP <- function(PY,i,time=1,C1=0,C1_time=0,C2=0,C2_time=0,c=0,y=0){
 
